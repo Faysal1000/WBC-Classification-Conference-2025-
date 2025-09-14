@@ -198,8 +198,8 @@ def gradcam(model, img_array, class_index=None, preferred_last_conv="top_conv", 
     if np.max(cam) > 1e-8:
         cam /= np.max(cam)
 
-    st.write(f"[Grad-CAM] layer={last_conv_name}, "
-             f"min={cam.min():.4f}, max={cam.max():.4f}, shape={cam.shape}")
+    #st.write(f"[Grad-CAM] layer={last_conv_name}, "
+             #f"min={cam.min():.4f}, max={cam.max():.4f}, shape={cam.shape}")
 
     return cam
 
