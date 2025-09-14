@@ -4,6 +4,5 @@ scikit-learn
 numpy
 Pillow
 matplotlib
-streamlit
 staintools
 spams-bin
