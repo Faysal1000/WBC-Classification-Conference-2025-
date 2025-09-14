@@ -6,3 +6,4 @@ Pillow
 matplotlib
 staintools
 spams-bin
+streamlit==1.37.0
